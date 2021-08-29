@@ -2,7 +2,7 @@ def main():
     # Pedire los datos necesarios
     mens = int(input("Dame el número de mensajes: "))
     megas = float(input("Dame el número de megas: "))
-    minu = int(input("Dame el numero de minutos: "))
+    minu = int(input("Dame el número de minutos: "))
     # hare las operaciones necesarias
     suma = (mens + megas + minu)* 0.80
     #Dare el resultado 
