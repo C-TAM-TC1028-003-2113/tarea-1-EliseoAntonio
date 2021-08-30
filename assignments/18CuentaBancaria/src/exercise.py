@@ -11,9 +11,11 @@ def main():
     egre = float(input("Dame los egresos: "))
     cheques = int(input("Dame el número de cheques: "))
     #operacion
-    SinI = ((saldoA + ingre) - (egre + (cheques * 1)))
-    interes = SinI / 7.5
-    total = SinI - interes
+    ingresosT = saldoA + ingre
+    ingresosT = ingresosT - egre
+    ingresosT = ingresosT - (cheques * 13)
+    interes = ingresosT / 7.5
+    total = ingresosT - interes
     #salida
     print("El saldo final de la cuenta es:", total)
 
