@@ -9,7 +9,7 @@ def main():
     saldoA = float(input("Dame el saldo del mes anterior: "))
     ingre = float(input("Dame los ingresos: "))
     egre = float(input("Dame los egresos: "))
-    cheques = int(input("Dame el numero de cheques: "))
+    cheques = int(input("Dame el número de cheques: "))
     #operacion
     SinI = ((saldoA + ingre) - (egre + (cheques * 1)))
     interes = SinI / 7.5
