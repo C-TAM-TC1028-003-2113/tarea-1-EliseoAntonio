@@ -6,7 +6,7 @@ def main():
     # partir de las palabras de la misma. Considera que se necesita 
     # una página completa aunque el número de palabras sea menor a 475.
 
-    Npaginas = int(input(" Dame el número de palabras: "))
+    Npaginas = int(input("Dame el número de palabras: "))
     # Operaciones
     div1 = int(Npaginas / 475)
     div2 = int(Npaginas % 475)
@@ -24,3 +24,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
